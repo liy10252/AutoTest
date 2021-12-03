@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="2" name="TestSuite" time="0.93" errors="0" skipped="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\workspace\muke\AutoTest\Chapter12"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\workspace\muke\AutoTest\Chapter12"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="E:\workspace\muke\AutoTest\Chapter12\target\surefire\surefirebooter13962233245770243731.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\lee\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;C:\Users\lee\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.6\bin;C:\Program Files\Java\jdk-11.0.6\jre\bin;E:\apache-maven-3.8.3\bin;E:\software\Fiddler;E:\mysql\bin;;."/>
+    <property name="surefire.test.class.path" value="E:\workspace\muke\AutoTest\Chapter12\target\test-classes;E:\workspace\muke\AutoTest\Chapter12\target\classes;E:\m2\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;E:\m2\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;E:\m2\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;E:\m2\org\json\json\20170516\json-20170516.jar;E:\m2\org\mybatis\mybatis\3.5.5\mybatis-3.5.5.jar;E:\m2\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar;E:\m2\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;E:\m2\org\projectlombok\lombok\1.18.0\lombok-1.18.0.jar;E:\m2\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;E:\m2\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;E:\m2\org\xerial\sqlite-jdbc\3.21.0.1\sqlite-jdbc-3.21.0.1.jar;E:\m2\org\freemarker\freemarker\2.3.27-incubating\freemarker-2.3.27-incubating.jar;E:\m2\org\mongodb\mongodb-driver\3.6.3\mongodb-driver-3.6.3.jar;E:\m2\org\mongodb\bson\3.6.3\bson-3.6.3.jar;E:\m2\org\mongodb\mongodb-driver-core\3.6.3\mongodb-driver-core-3.6.3.jar;E:\m2\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;E:\m2\com\google\guava\guava\20.0\guava-20.0.jar;E:\m2\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;E:\m2\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;E:\m2\org\testng\testng\6.10\testng-6.10.jar;E:\m2\com\beust\jcommander\1.48\jcommander-1.48.jar;E:\m2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\lee"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="lee"/>
+    <property name="java.class.path" value="E:\workspace\muke\AutoTest\Chapter12\target\test-classes;E:\workspace\muke\AutoTest\Chapter12\target\classes;E:\m2\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;E:\m2\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;E:\m2\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;E:\m2\org\json\json\20170516\json-20170516.jar;E:\m2\org\mybatis\mybatis\3.5.5\mybatis-3.5.5.jar;E:\m2\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar;E:\m2\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;E:\m2\org\projectlombok\lombok\1.18.0\lombok-1.18.0.jar;E:\m2\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;E:\m2\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;E:\m2\org\xerial\sqlite-jdbc\3.21.0.1\sqlite-jdbc-3.21.0.1.jar;E:\m2\org\freemarker\freemarker\2.3.27-incubating\freemarker-2.3.27-incubating.jar;E:\m2\org\mongodb\mongodb-driver\3.6.3\mongodb-driver-3.6.3.jar;E:\m2\org\mongodb\bson\3.6.3\bson-3.6.3.jar;E:\m2\org\mongodb\mongodb-driver-core\3.6.3\mongodb-driver-core-3.6.3.jar;E:\m2\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;E:\m2\com\google\guava\guava\20.0\guava-20.0.jar;E:\m2\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;E:\m2\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;E:\m2\org\testng\testng\6.10\testng-6.10.jar;E:\m2\com\beust\jcommander\1.48\jcommander-1.48.jar;E:\m2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="E:\workspace\muke\AutoTest\Chapter12\target\surefire\surefirebooter13962233245770243731.jar E:\workspace\muke\AutoTest\Chapter12\target\surefire\surefire8451443333750729526tmp E:\workspace\muke\AutoTest\Chapter12\target\surefire\surefire18137879859872645392tmp"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.6"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="E:\m2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.course.cases.LoginTest" name="loginTrue" time="0.285">
+    <failure message="
+### Error querying database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in mapper/SQLMapper.xml
+### The error may involve com.course.model.loginCase
+### The error occurred while executing a query
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server." type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in mapper/SQLMapper.xml
+### The error may involve com.course.model.loginCase
+### The error occurred while executing a query
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at com.course.cases.LoginTest.loginTrue(LoginTest.java:36)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:172)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862)
+	at com.mysql.cj.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:444)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:224)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:219)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.getConnection(UnpooledDataSource.java:95)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:432)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.getConnection(PooledDataSource.java:89)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:139)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.getConnection(JdbcTransaction.java:61)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 37 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:103)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:563)
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:514)
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:401)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1409)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:982)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852)
+	... 57 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:67)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:557)
+	... 63 more
+</failure>
+    <system-out>@HL
+@HL-------------------------------------------------------
+@HL T E S T S
+@HL-------------------------------------------------------
+@SLRunning TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add &quot;&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot; &gt;&quot; at the top of your file, otherwise TestNG may fail or not work as expected.
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.LoginTest" name="loginFalse" time="0.019">
+    <failure message="
+### Error querying database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in mapper/SQLMapper.xml
+### The error may involve com.course.model.loginCase
+### The error occurred while executing a query
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server." type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in mapper/SQLMapper.xml
+### The error may involve com.course.model.loginCase
+### The error occurred while executing a query
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at com.course.cases.LoginTest.loginFalse(LoginTest.java:67)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:172)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862)
+	at com.mysql.cj.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:444)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:224)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:219)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.getConnection(UnpooledDataSource.java:95)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:432)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.getConnection(PooledDataSource.java:89)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:139)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.getConnection(JdbcTransaction.java:61)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 37 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:103)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:563)
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:514)
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:401)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1409)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:982)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852)
+	... 57 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:67)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:557)
+	... 63 more
+</failure>
+  </testcase>
+  <testcase classname="com.course.cases.AddUserTest" name="addUser" time="0.019">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserInfoTest" name="getUserInfo" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="updateUserInfo" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="deleteUser" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserInfoListTest" name="getUserListInfo" time="0.02">
+    <skipped/>
+  </testcase>
+</testsuite>
