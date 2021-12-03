@@ -1,0 +1,2 @@
+数据库操作后读取到的信息为null,设置数据库的隔离级别搞定
+mysql> SET GLOBAL TRANSACTION ISOLATION LEVEL READ COMMITTED;
